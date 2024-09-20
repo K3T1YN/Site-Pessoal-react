@@ -31,21 +31,23 @@ header ul li {
   margin: 0 30px; 
 }
 
-
-
 .hero {
   text-align: center;
   padding: 50px 20px;
 }
 
 .hero-image {
+  display: flex;
+  align-items: center;
+  
   width: 250px;
   border-radius: 10px;
 }
 
 .sobre {
   padding: 40px 20px;
-  text-align: center;
+  text-align: start;
+  max-width: 600px;
 }
 
 .card-row {
@@ -73,9 +75,31 @@ header ul li {
   border-radius: 20px;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.card-row {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 20px; 
+}
+
+.card {
+  width: 30%; 
+  margin: 0 10px; 
+}
+
+.second-row .card {
+  width: 40%;
+}
+
+
 .card:hover {
   transform: scale(1.05);
-  color: #B31810; /* Cor de destaque */
+  color: #B31810; 
 }
 
 .portfolio-item {
@@ -90,6 +114,10 @@ footer {
   background-color: #B31810; 
   padding: 20px 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
 }
 
 footer a {
@@ -107,3 +135,4 @@ footer a:hover {
     align-items: center;
   }
 }
+

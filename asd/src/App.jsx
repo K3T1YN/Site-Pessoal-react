@@ -15,9 +15,9 @@ const Header = () => {
   return (
     <header>
       <div className="background">
-        <div className="logo"></div>
         <nav className="header">
           <ul>
+            <li>KL</li>
             <li><a href="#Curiosidades">Curiosidades</a></li>
             <li><a href="#Portfolio">Portfólio</a></li>
             <li><a href="#Contatos">Contatos</a></li>
@@ -42,7 +42,6 @@ const Main = () => {
 const Hero = () => {
   return (
     <div className="hero">
-      <h2>Ketlyn Lohane</h2>
       <img src="minhafoto.jpg" alt="Minha Foto" className="hero-image" /> 
     </div>
   );
@@ -53,6 +52,7 @@ const Sobre = () => {
     <div className="sobre">
       <div className="interface">
         <h2>Sobre Mim</h2>
+        <h3>Ketlyn Lohane Martins de Melo</h3>
         <p>
           Me chamo <span>Ketlyn Lohane</span>, tenho 18 anos. Moro em Natal/RN, mas morei minha infância toda em Ceará-Mirim. 
           Atualmente estudo no IFRN Campus-Ceará-Mirim, 3° ano do ensino médio, cursando informática.
@@ -128,6 +128,8 @@ const curiosidadesData = [
   { imgSrc: 'praia.jpg', title: 'Lugar preferido', description: 'Onde me sinto mais leve e como me revigoro.' },
   { imgSrc: 'cabelocacheado.jpg', title: 'Meu cabelo natural é cacheado', description: 'Um erro foi tirar meus cachos.' },
   { imgSrc: 'avó.webp', title: 'Fui criada pela minha avó', description: 'Desde os 3 meses sou criada pela minha avó. Minha mãe!' },
+  { imgSrc: 'baba.jpeg', title: 'Já fui babá', description: 'Já trabalhei cuidando dessa neném linda. Amo crianças.' },
+  { imgSrc: 'unhas.jpg', title: 'Já fui manicure', description: 'Meus 12-15 anos trabalhei fazendo unhas.' },
 ];
 
 // Dados do Portfólio
