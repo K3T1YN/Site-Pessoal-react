@@ -39,7 +39,6 @@ header ul li {
 .hero-image {
   display: flex;
   align-items: center;
-  
   width: 250px;
   border-radius: 10px;
 }

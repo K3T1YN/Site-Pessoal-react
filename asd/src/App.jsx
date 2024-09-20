@@ -4,9 +4,9 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 };
@@ -31,10 +31,10 @@ const Header = () => {
 const Main = () => {
   return (
     <main>
-      <Hero />
-      <Sobre />
-      <Curiosidades />
-      <Portfolio />
+      <Hero/>
+      <Sobre/>
+      <Curiosidades/>
+      <Portfolio/>
     </main>
   );
 };
@@ -42,7 +42,7 @@ const Main = () => {
 const Hero = () => {
   return (
     <div className="hero">
-      <img src="minhafoto.jpg" alt="Minha Foto" className="hero-image" /> 
+      <img src="minhafoto.jpg" alt="Minha Foto" className="hero-image"/> 
     </div>
   );
 };
