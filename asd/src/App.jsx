@@ -6,6 +6,7 @@ const App = () => {
     <div className="App">
       <Header/>
       <Main/>
+      <Sobre/>
       <Footer/>
     </div>
   );

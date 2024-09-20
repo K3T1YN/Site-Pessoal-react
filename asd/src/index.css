@@ -41,13 +41,20 @@ header ul li {
   align-items: center;
   width: 250px;
   border-radius: 10px;
+  
 }
 
 .sobre {
-  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 200px;
   text-align: start;
-  max-width: 600px;
+  max-width: 900px;
+  margin: 0 auto;
+  
 }
+
 
 .card-row {
   display: flex;
@@ -87,7 +94,7 @@ header ul li {
 }
 
 .card {
-  width: 30%; 
+  width: 24%; 
   margin: 0 10px; 
 }
 
