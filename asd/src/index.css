@@ -32,27 +32,39 @@ header ul li {
 }
 
 .hero {
-  text-align: center;
-  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
-.hero-image {
-  display: flex;
-  align-items: center;
-  width: 250px;
-  border-radius: 10px;
-  
+.hero {
+  max-width: 1200px;
+  width: 100%;
 }
 
-.sobre {
+.hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 200px;
+  justify-content: start;
+  gap: 20px;
+}
+
+.texto {
+  flex: 1;
+  padding-right: 30px;
   text-align: start;
-  max-width: 900px;
-  margin: 0 auto;
   
+}
+
+.foto {
+  flex: 1;
+  text-align: center;
+}
+
+.foto img {
+  max-width: 400px;
+  height: 400px;
+  border-radius: 10%;
 }
 
 

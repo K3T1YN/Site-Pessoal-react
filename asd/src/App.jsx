@@ -32,7 +32,6 @@ const Main = () => {
   return (
     <main>
       <Hero/>
-      <Sobre/>
       <Curiosidades/>
       <Portfolio/>
     </main>
@@ -42,30 +41,21 @@ const Main = () => {
 const Hero = () => {
   return (
     <div className="hero">
-      <img src="minhafoto.jpg" alt="Minha Foto" className="hero-image"/> 
-    </div>
-  );
-};
-
-const Sobre = () => {
-  return (
-    <div className="sobre">
-      <div className="interface">
+      <div className="texto">
         <h2>Sobre Mim</h2>
         <h3>Ketlyn Lohane Martins de Melo</h3>
-        <p>
-          Me chamo <span>Ketlyn Lohane</span>, tenho 18 anos. Moro em Natal/RN, mas morei minha infância toda em Ceará-Mirim. 
-          Atualmente estudo no IFRN Campus-Ceará-Mirim, 3° ano do ensino médio, cursando informática.
-        </p>
+        <p>Me chamo <span>Ketlyn Lohane</span>, tenho 18 anos. Moro em Natal/RN, mas morei minha infância toda em Ceará-Mirim. 
+        Atualmente estudo no IFRN Campus-Ceará-Mirim, 3° ano do ensino médio, cursando informática.</p>
         <h3>O que gosto de fazer:</h3>
-        <p>
-          Meus hobbys são diversificados, adoro sair e ao mesmo tempo gosto muito de dormir. 
-          Gosto muito de cozinhar, de cinema, date Netflix com brigadeiro, amo cantar e ouvir músicas.
-        </p>
+        <p>Meus hobbys são diversificados, adoro sair e ao mesmo tempo gosto muito de dormir. Gosto muito de cozinhar, de cinema, date Netflix com brigadeiro, amo cantar e ouvir músicas.</p>
+      </div>
+      <div className="foto">
+        <img src="minhafoto.jpg" alt="Minha Foto" className="hero-image"/> 
       </div>
     </div>
   );
 };
+
 
 const Curiosidades = () => {
   return (
